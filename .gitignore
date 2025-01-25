@@ -1,5 +1,6 @@
 api_token.env
 users.db
 game.db
-bot.config.py
-ZEK17.11.py 
+
+*.pyc
+__pycache__/
