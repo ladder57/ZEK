@@ -7,7 +7,7 @@ from aiogram.fsm.state import StatesGroup, State
 from aiogram.fsm.context import FSMContext
 from aiogram.filters.state import StateFilter
 from dotenv import load_dotenv
-from bot.config import responses, random_responses, negative_actions, positive_actions
+from config import responses, random_responses, negative_actions, positive_actions
 
 env_path = os.path.join(os.getcwd(), "api_token.env")
 load_dotenv(dotenv_path=env_path)
